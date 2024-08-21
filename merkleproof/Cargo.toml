@@ -1,0 +1,16 @@
+[package]
+name = "merkleproof"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+binary-merkle-tree = "15.0.0"
+parity-scale-codec = "3.6.12"
+sp-runtime = "39.0.0"
+wasm-bindgen = "0.2.93"
+getrandom = { version = "0.2.15", features = ["js"] }
+sp-io = "38.0.0"
+sp-core = "34.0.0"
