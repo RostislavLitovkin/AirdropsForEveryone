@@ -2,6 +2,8 @@
 
 ## Project description
 
+An udpate to existing assets pallet in Polkadot SDK to allow multiple-times efficient airdrops. It is usefull for memecoins :)
+
 ## How to run
 
 ### Run locally
